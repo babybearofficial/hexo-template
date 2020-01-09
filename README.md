@@ -14,6 +14,10 @@
 
 先 `Fork` 此仓库
 
+### 开启 `Github Pages`
+
+`Fork` 后 `Pages` 默认就开启了, 但是并不起作用, 原因未知, 所以需要手动在开启一次, 点击仓库 `Settings` 然后下拉找到 `Github Pages`, 将 `gh-pages` 分支改成 `master` 分支, 然后再切换回来, 稍等几分钟即可访问.
+
 ### 生成 `SSH` 密钥
 
 ```
@@ -29,10 +33,6 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 ### 开启 `Github Actions`
 
 `Fork` 的仓库默认不开启 `Actions`, 在仓库页面手动点击 `Actions` 选项, 根据提示开启即可.
-
-### 访问博客
-
-博客默认部署在 `gh-pages` 分支, 稍等几分钟后, 尝试访问 `https://<你的 GitHub 用户名>.github.io/<repository 的名字>` 即可判断是否部署成功.
 
 ### 克隆到本地
 
