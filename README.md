@@ -4,6 +4,10 @@
 
 所有 `Hexo` 配置均采用默认, 只更改了主题为 [cactus](https://github.com/probberechts/hexo-theme-cactus).
 
+## 预览
+
+[https://abyssknight.github.io/hexo-template/](https://abyssknight.github.io/hexo-template/)
+
 ## 使用方式
 
 ### `Fork`
