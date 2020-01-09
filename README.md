@@ -19,12 +19,12 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 使用以上命令会生成 `gh-pages` 和 `gh-pages.pub` 两个文件, 一个是 `私钥`, 一个是 `公钥`. 按照以下步骤设置密钥：
 
 1. 打开仓库设置 `Settings`
-2. 点击 `Deploy Keys` 选项, 将 `gh-pages.pub` 文件中的内容粘贴进去, 名字随便起
+2. 点击 `Deploy Keys` 选项, 添加新的 `Key`, 将 `gh-pages.pub` 文件中的内容粘贴进去, 名字随便起, 选中 `Allow write access` 允许写权限.
 3. 点击 `Secrets` 选项, 将 `gh-pages` 文件中的内容粘贴进去, 名称设置为 `ACTIONS_DEPLOY_KEY`, 因为这里设置的名称需要在 `Github Actions` 配置中使用, 所以要对应.
 
 ### 开启 `Github Actions`
 
-`Fork` 的仓库默认不开启 `Actions`, 在仓库页面手动点击 `Actions` 选项, 根据提示开启即可
+`Fork` 的仓库默认不开启 `Actions`, 在仓库页面手动点击 `Actions` 选项, 根据提示开启即可.
 
 ### 访问博客
 
