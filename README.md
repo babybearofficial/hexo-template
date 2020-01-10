@@ -34,6 +34,10 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 
 `Fork` 的仓库默认不开启 `Actions`, 在仓库页面手动点击 `Actions` 选项, 根据提示开启即可.
 
+### 修改配置
+
+由于采用了博客路径在 `*/<仓库名>` 下, 所以生成静态资源文件请求路径也要在 `<仓库名>` 下, 所以修改 `Hexo` 配置文件 `_config.yml` 找到 `root` 属性, 改成自己的仓库名即可.
+
 ### 克隆到本地
 
 将博客克隆到本地, 编写博客只需将 `markdown` 文件 `push` 到仓库, 就会触发 `Github Actions` 生成 `静态页面` 部署到 `gh-pages` 分支.
