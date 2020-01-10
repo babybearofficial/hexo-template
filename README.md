@@ -16,7 +16,7 @@
 
 ### 开启 `Github Pages`
 
-`Fork` 后 `Pages` 默认就开启了, 但是并不起作用, 原因未知, 所以需要手动在开启一次, 点击仓库 `Settings` 然后下拉找到 `Github Pages`, 将 `gh-pages` 分支改成 `master` 分支, 然后再切换回来, 稍等几分钟即可访问.
+`Fork` 后 `Pages` 默认就开启了, 但是并不起作用, 原因未知, 所以需要手动再开启一次, 点击仓库 `Settings` 然后下拉找到 `Github Pages`, 将 `gh-pages` 分支改成 `master` 分支, 然后再切换回来, 稍等几分钟即可访问.
 
 ### 生成 `SSH` 密钥
 
